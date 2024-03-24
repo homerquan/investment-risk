@@ -1,0 +1,15 @@
+{
+  "name": "tasks_creator",
+  "version": "1.0.0",
+  "description": "First, ensure you have Node.js installed on your machine. Then, you'll need to install the commander package, which is used to build command-line interfaces in Node.js. You can install it using npm or yarn:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "openai": "^4.29.2"
+  }
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Investment Advisor</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap"
+    />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        color: #333;
+        background-color: #f4f7f6;
+        margin: 0;
+        padding: 20px;
+      }
+
+      .container {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      label {
+        font-size: 16px;
+        font-weight: bold;
+        color: #274c77;
+        margin-bottom: 5px;
+        display: block;
+      }
+
+      textarea,
+      input[type="date"] {
+        width: 80%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        font-size: 14px;
+        font-weight: bold;
+      }
+
+      button {
+        background-color: #008cba;
+        color: #ffffff;
+        padding: 12px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #005f73;
+      }
+
+      #response,
+      #loading-status {
+        font-size: 16px;
+        color: #274c77;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>SecondInsight</h1>
+      <h3 style="margin-bottom: 20px;">Your Financial Wingman: Navigating the Skies of Investment Risks with Ease!</h3>
+      <label for="goal">Goal</label>
+      <textarea id="goal" placeholder="Enter your investment goal"></textarea>
+      <div id="context-container">
+        <button id="context-btn" style="margin-bottom: 20px;">Add Context</button>
+        <label for="context" class="context-label" style="display: none"
+          >Context</label
+        >
+        <textarea
+          id="context"
+          placeholder="Context information"
+          style="display: none"
+        ></textarea>
+        <label for="timestamp" class="context-label" style="display: none"
+          >Timestamp</label
+        >
+        <input type="date" id="timestamp" style="display: none" />
+      </div>
+      <button id="submit">Submit</button>
+      <div id="response"></div>
+      <div id="loading-status" style="display: none"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

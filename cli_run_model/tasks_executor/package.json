@@ -1,0 +1,19 @@
+{
+  "name": "tasks_executor",
+  "version": "1.0.0",
+  "description": "How to Use Save the provided code in a file named tasks_executor.js. In your terminal, navigate to the directory containing tasks_executor.js. Make the script executable (optional for Windows): chmod +x tasks_executor.js. Run the tool by passing the tasks JSON string as an argument. For example: sh Copy code ./tasks_executor.js --input '[{\"action\": \"LOOK_ANNUAL_REPORT\",\"data\": {\"symbol\": \"BA\",\"year\": 2023}},{\"action\": \"LOOK_STOCK_PRICE\",\"data\": {\"symbol\": \"BA\",\"range\": {\"from\": \"2023-03-23\",\"to\": \"2024-03-23\"}}}]'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "commander": "^12.0.0",
+    "csv-parser": "^3.0.0",
+    "moment": "^2.30.1",
+    "yahoo-finance": "^0.3.8",
+    "yahoo-finance2": "^2.11.0"
+  }
+}
