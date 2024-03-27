@@ -1,1 +1,1 @@
-{"actions":[{"action":"LOOK_REPORT","data":{"symbol":"NVDA","range":{"from":"2021-02-01","to":"2022-02-01"}}},{"action":"LOOK_STOCK_PRICE","data":{"symbol":"NVDA","range":{"from":"2021-02-01","to":"2022-02-01"}}}]}
+{"actions":[{"action":"LOOK_REPORT","data":{"symbol":"GE","range":{"from":"2021-07-01","to":"2022-07-01"}}},{"action":"LOOK_STOCK_PRICE","data":{"symbol":"GE","range":{"from":"2021-07-01","to":"2022-07-01"}}}]}
